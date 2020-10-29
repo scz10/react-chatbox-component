@@ -48,7 +48,7 @@ class MessageList extends React.Component {
               className='chat-bubble-row'
               style={{flexDirection: isUser ? 'row-reverse' : 'row'}}>
               <img
-                src={message.sender.avatar}
+                src={'https://identicon-api.herokuapp.com/'+message.sender.uid+'/30?format=png'}
                 alt='sender avatar'
                 className='avatar'
                 style={isUser ? {marginLeft: '15px'} : {marginRight: '15px'}}
@@ -57,8 +57,13 @@ class MessageList extends React.Component {
                 {renderName}
                 <div
                   className='message'
-                  style={{color: isUser ? '#FFF' : '#2D313F'}}>
+                  style={{color: isUser ? '#FFF' : '#2D313F','word-break': 'break-all', 'width': 'auto'}}>
                   {message.text}
+                </div>
+                <div
+                  className='sender-time'
+                  style={{color: isUser ? '#FFF' : '#2D313F'}}>
+                  {message.sender.time}
                 </div>
               </div>
             </div>
