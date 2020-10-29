@@ -11,7 +11,6 @@ import MDSpinner from 'react-md-spinner';
 
 
 import emptyChatImage from '../../assets/empty-state.svg';
-import Identicon from '@polkadot/react-identicon';
 
 var MessageList = function (_React$Component) {
   _inherits(MessageList, _React$Component);
