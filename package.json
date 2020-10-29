@@ -1,26 +1,40 @@
 {
-  "name": "react-chatbox-component",
-  "version": "0.0.5",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "files": [
-    "dist"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nsebhastian/react-chatbox-component.git"
+  "_from": "react-chatbox-component@0.0.5",
+  "_id": "react-chatbox-component@0.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-V/+uaLJv4VXfYdkCvi1XcdKdkPINJPZrytZRfDoqbG067bmhU0770hY173ngZPFQ7cxF0CBQnglH4tmigEvzRw==",
+  "_location": "/react-chatbox-component",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-chatbox-component@0.0.5",
+    "name": "react-chatbox-component",
+    "escapedName": "react-chatbox-component",
+    "rawSpec": "0.0.5",
+    "saveSpec": null,
+    "fetchSpec": "0.0.5"
   },
-  "keywords": [
-    "chat component",
-    "react component",
-    "chat box"
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "author": "Nathan Sebhastian",
-  "license": "MIT",
+  "_resolved": "https://registry.npmjs.org/react-chatbox-component/-/react-chatbox-component-0.0.5.tgz",
+  "_shasum": "0520b363079c2a5b64cf9dc369452125bdf75fb1",
+  "_spec": "react-chatbox-component@0.0.5",
+  "_where": "D:\\Dev\\JS\\siak-pnj-react",
+  "author": {
+    "name": "Nathan Sebhastian"
+  },
   "bugs": {
     "url": "https://github.com/nsebhastian/react-chatbox-component/issues"
   },
-  "homepage": "https://github.com/nsebhastian/react-chatbox-component#readme",
+  "bundleDependencies": false,
+  "dependencies": {
+    "react-md-spinner": "^0.4.0"
+  },
+  "deprecated": false,
+  "description": "[![GitHub license](https://img.shields.io/github/license/nsebhastian/react-chatbox-component?color=blue&style=flat-square)](https://github.com/nsebhastian/react-chatbox-component/blob/master/LICENSE)\r [![Current stable version](https://img.shields.io/npm/v/react-chatbox-component?color=blue&style=flat-square)](https://www.npmjs.com/package/react-chatbox-component)\r [![Pull Requests are welcome](https://img.shields.io/badge/PRs-welcome-success?style=flat-square)](https://github.com/nsebhastian/react-chatbox-component/pulls)",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "react": "^16.3.2",
@@ -28,18 +42,33 @@
     "react-scripts": "1.1.4",
     "react-test-renderer": "^16.3.2"
   },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/nsebhastian/react-chatbox-component#readme",
+  "keywords": [
+    "chat component",
+    "react component",
+    "chat box"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "name": "react-chatbox-component",
   "peerDependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build-examples": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsebhastian/react-chatbox-component.git"
   },
-  "dependencies": {
-    "react-md-spinner": "^0.4.0"
-  }
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build-examples": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "version": "0.0.5"
 }
