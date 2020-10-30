@@ -20,7 +20,7 @@ var Chat = function (_React$Component) {
 
     _this.scrollToBottom = function () {
       var chat = document.getElementById('end-of-chat');
-      chat.scrollIntoView();
+      chat.parentNode.scrollTop = chat.offsetTop;
     };
 
     _this.handleSendMessage = function (event) {
