@@ -22,7 +22,7 @@ class Chat extends React.Component {
   }
   scrollToBottom = () => {
     const chat = document.getElementById('end-of-chat');
-    chat.parentNode.scrollTop = chat.offsetTop;
+    chat.scrollIntoView();
   };
 
   handleSendMessage = event => {
@@ -48,7 +48,6 @@ class Chat extends React.Component {
                   renderMessage={renderMessage}
                 />
                 <div className='chat-box-bottom'>
-                  { this.props.typingIndicator?this.props.typingIndicator:'' }
                   <div id='end-of-chat'></div>
                 </div>
               </div>

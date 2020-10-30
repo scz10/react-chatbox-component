@@ -22,7 +22,7 @@ class App extends React.Component {
         "sender": {
           "name": "Ironman",
           "uid": "user1",
-          "avatar": "https://data.cometchat.com/assets/images/avatars/ironman.png",
+          "time": "2020",
         },
       },
       {
@@ -40,7 +40,331 @@ class App extends React.Component {
         "sender": {
           "name": "Ironman",
           "uid": "user1",
-          "avatar": "https://data.cometchat.com/assets/images/avatars/ironman.png",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
+        },
+      },
+      {
+        "text": "Hi Mr. Stark",
+        "id": "2",
+        "sender": {
+          "name": "Spiderman",
+          "uid": "user2",
+          "avatar": "https://data.cometchat.com/assets/images/avatars/spiderman.png",
+        },
+      },
+      {
+        "text": "Hello Spiderman, how are you today?",
+        "id": "3",
+        "sender": {
+          "name": "Ironman",
+          "uid": "user1",
+          "time": "2020",
         },
       },
     ];
