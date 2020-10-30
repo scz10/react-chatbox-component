@@ -10,13 +10,17 @@ class Chat extends React.Component {
     };
   }
 
-  componentDidUpdate(prevProps, prevState) {
-    if (prevState.message !== this.state.message && this.props.typingListener) {
-      this.props.typingListener();
-    }
-    //this.scrollToBottom();
-  }
+  //componentDidUpdate(prevProps, prevState) {
+  //  if (prevState.message !== this.state.message && this.props.typingListener) {
+  //    this.props.typingListener();
+  //  }
+  //  //this.scrollToBottom();
+  //}
 
+  componentDidMount(){
+    this.scrollToBottom();
+  }
+  
   scrollToBottom = () => {
     const chat = document.getElementById('end-of-chat');
     chat.scrollIntoView();
@@ -31,7 +35,7 @@ class Chat extends React.Component {
 
 
   render() {
-    this.scrollToBottom();
+    
     let {messages, isLoading, user, renderMessage} = this.props;
     let {message} = this.state;
 
