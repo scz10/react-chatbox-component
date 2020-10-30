@@ -62,34 +62,20 @@
 }
 
 .input-group {
-  background-color: #333;
-  padding: 10px;
-  font-size: 20px;
+  margin-right: 20px;
+  border-top: 1px solid #dee6eb;
+  width: 100% !important;
+  background-color: #fff;
+  height: 100%;
+  border-radius: 0 0 7px 7px;
 }
 
 .input-group input {
-    /* style */
-  border: none;
-  padding: 7px;
-  
-  /* default input size isn't wide enough */
-  width: 100%;
-  
-  /* keeps input from overflowing its container */
-  -webkit-box-sizing: border-box; 
-  -moz-box-sizing: border-box;    
-  box-sizing: border-box;      
- /* prevents input from flowing behind the button */
-  padding-right: 60px;                            
- /* line-height (which determines height) renders slightly different across browsers.
-  But specifiying a fixed line-height: 14px caused a 1px difference in IE.
-  I found it easier just to lock in the height */
-  height: 28px;
+  height: 100%;
+  background: #fff;
 }
 
-
 .input-group ::placeholder {
-  word-wrap: break-word;
   color: #c0c0c0 !important;
 }
 
@@ -187,7 +173,7 @@
 }
 
 .sender-name {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   padding-right: 10px;
 }
