@@ -21,6 +21,7 @@ var Chat = function (_React$Component) {
     _this.scrollToBottom = function () {
       var chat = document.getElementById('end-of-chat');
       chat.scrollIntoView();
+      window.scrollTo(0, 0);
     };
 
     _this.handleSendMessage = function (event) {
