@@ -107,7 +107,7 @@ var MessageList = function (_React$Component) {
                   'div',
                   {
                     className: 'message',
-                    style: { color: isUser ? '#FFF' : '#2D313F', 'word-break': 'break-all', 'width': '1220px' } },
+                    style: { color: isUser ? '#FFF' : '#2D313F', 'word-break': 'break-all', 'width': '100%', 'max-width': '1220px' } },
                   message.text
                 ),
                 React.createElement(
