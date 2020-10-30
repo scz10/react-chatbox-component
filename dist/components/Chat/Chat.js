@@ -20,7 +20,7 @@ var Chat = function (_React$Component) {
 
     _this.scrollToBottom = function () {
       var chat = document.getElementById('end-of-chat');
-      chat.parentNode.scrollTop = chat.offsetTop;
+      chat.scrollIntoView();
     };
 
     _this.handleSendMessage = function (event) {
@@ -77,7 +77,6 @@ var Chat = function (_React$Component) {
           React.createElement(
             'div',
             { className: 'chat-box-bottom' },
-            this.props.typingIndicator ? this.props.typingIndicator : '',
             React.createElement('div', { id: 'end-of-chat' })
           )
         ),
