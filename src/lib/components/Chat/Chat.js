@@ -14,7 +14,13 @@ class Chat extends React.Component {
     if (prevState.message !== this.state.message && this.props.typingListener) {
       this.props.typingListener();
     }
+    this.scrollToBottom();
   }
+
+  scrollToBottom = () => {
+    const chat = document.getElementById('end-of-chat');
+    chat.scrollIntoView();
+  };
 
   handleSendMessage = event => {
     event.preventDefault();

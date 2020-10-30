@@ -18,6 +18,11 @@ var Chat = function (_React$Component) {
 
     var _this = _possibleConstructorReturn(this, (Chat.__proto__ || Object.getPrototypeOf(Chat)).call(this, props));
 
+    _this.scrollToBottom = function () {
+      var chat = document.getElementById('end-of-chat');
+      chat.scrollIntoView();
+    };
+
     _this.handleSendMessage = function (event) {
       event.preventDefault();
       var message = _this.state.message;
@@ -38,6 +43,7 @@ var Chat = function (_React$Component) {
       if (prevState.message !== this.state.message && this.props.typingListener) {
         this.props.typingListener();
       }
+      this.scrollToBottom();
     }
   }, {
     key: 'render',
