@@ -9,7 +9,6 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 import React from 'react';
 import MDSpinner from 'react-md-spinner';
 
-
 import emptyChatImage from '../../assets/empty-state.svg';
 
 var MessageList = function (_React$Component) {
@@ -74,24 +73,18 @@ var MessageList = function (_React$Component) {
           } else {
             var isUser = user.uid === message.sender.uid;
             var renderName = void 0;
-            var renderTime = void 0;
+            var renderTime = React.createElement(
+              'div',
+              { className: 'sender-name' },
+              message.sender.time
+            );
             if (isUser) {
               renderName = null;
-              renderTime = React.createElement(
-                'div',
-                { className: 'sender-time' },
-                message.sender.time
-              )
             } else {
               renderName = React.createElement(
                 'div',
                 { className: 'sender-name' },
                 message.sender.name
-              );
-              renderName = React.createElement(
-                'div',
-                { className: 'sender-time' },
-                message.sender.time
               );
             }
             return React.createElement(
@@ -101,7 +94,7 @@ var MessageList = function (_React$Component) {
                 className: 'chat-bubble-row',
                 style: { flexDirection: isUser ? 'row-reverse' : 'row' } },
               React.createElement('img', {
-                src: 'https://identicon-api.herokuapp.com/'+message.sender.uid+'/30?format=png',
+                src: 'https://identicon-api.herokuapp.com/' + message.sender.uid + '/30?format=png',
                 alt: 'sender avatar',
                 className: 'avatar',
                 style: isUser ? { marginLeft: '15px' } : { marginRight: '15px' }
@@ -117,12 +110,15 @@ var MessageList = function (_React$Component) {
                     className: 'message',
                     style: { color: isUser ? '#FFF' : '#2D313F', 'word-break': 'break-all', 'width': 'auto' } },
                   message.text
+                ),
+                React.createElement(
+                  'div',
+                  {
+                    className: 'sender-time',
+                    style: { color: isUser ? '#FFF' : '#2D313F' } },
+                  message.sender.time
                 )
-              ),
-              // tadi dsini
-              {if (isUser) {
-                renderTime
-              }}
+              )
             );
           }
         });

@@ -26,11 +26,6 @@ var Chat = function (_React$Component) {
       _this.setState({ message: '' });
     };
 
-    _this.scrollToBottom = function () {
-      var chat = document.getElementById('end-of-chat');
-      //chat.scrollIntoView();
-    };
-
     _this.state = {
       message: ''
     };
@@ -43,7 +38,6 @@ var Chat = function (_React$Component) {
       if (prevState.message !== this.state.message && this.props.typingListener) {
         this.props.typingListener();
       }
-      this.scrollToBottom();
     }
   }, {
     key: 'render',
@@ -90,8 +84,8 @@ var Chat = function (_React$Component) {
               { className: 'input-group' },
               React.createElement('input', {
                 type: 'text',
-                maxlength: '255',
                 className: 'form-control message-input',
+                maxLength: '500',
                 placeholder: 'Type something',
                 value: message,
                 onChange: function onChange(event) {

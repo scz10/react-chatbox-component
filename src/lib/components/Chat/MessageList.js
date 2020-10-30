@@ -37,6 +37,7 @@ class MessageList extends React.Component {
         else {
           let isUser = user.uid === message.sender.uid;
           let renderName;
+          let renderTime = <div className='sender-name'>{message.sender.time}</div>;
           if (isUser) {
             renderName = null;
           } else {
@@ -55,6 +56,7 @@ class MessageList extends React.Component {
               />
               <div className={`chat-bubble ${isUser ? 'is-user' : 'is-other'}`}>
                 {renderName}
+                {renderTime}
                 <div
                   className='message'
                   style={{color: isUser ? '#FFF' : '#2D313F','word-break': 'break-all', 'width': 'auto'}}>
