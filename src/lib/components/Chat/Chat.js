@@ -20,10 +20,9 @@ class Chat extends React.Component {
   componentDidMount(){
     this.scrollToBottom();
   }
-
   scrollToBottom = () => {
     const chat = document.getElementById('end-of-chat');
-    chat.scrollTop = chat.scrollHeight;
+    chat.parentNode.scrollTop = chat.offsetTop;
   };
 
   handleSendMessage = event => {
