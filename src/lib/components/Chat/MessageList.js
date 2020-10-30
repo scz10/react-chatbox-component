@@ -56,10 +56,9 @@ class MessageList extends React.Component {
               />
               <div className={`chat-bubble ${isUser ? 'is-user' : 'is-other'}`}>
                 {renderName}
-                {renderTime}
                 <div
                   className='message'
-                  style={{color: isUser ? '#FFF' : '#2D313F','word-break': 'break-all', 'width': 'auto'}}>
+                  style={{color: isUser ? '#FFF' : '#2D313F','word-break': 'break-all', 'width': '1220px'}}>
                   {message.text}
                 </div>
                 <div

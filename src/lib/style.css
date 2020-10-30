@@ -187,15 +187,16 @@
 }
 
 .sender-name {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
   padding-right: 10px;
 }
 
 .sender-time {
-  font-size: 9px;
+  font-size: 10px;
   font-weight: bold;
   padding-right: 10px;
+  padding-top:8px;
 }
 
 .chat-bubble {
