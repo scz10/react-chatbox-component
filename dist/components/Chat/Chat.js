@@ -43,13 +43,14 @@ var Chat = function (_React$Component) {
       if (prevState.message !== this.state.message && this.props.typingListener) {
         this.props.typingListener();
       }
-      this.scrollToBottom();
+      //this.scrollToBottom();
     }
   }, {
     key: 'render',
     value: function render() {
       var _this2 = this;
 
+      this.scrollToBottom();
       var _props = this.props,
           messages = _props.messages,
           isLoading = _props.isLoading,

@@ -14,7 +14,7 @@ class Chat extends React.Component {
     if (prevState.message !== this.state.message && this.props.typingListener) {
       this.props.typingListener();
     }
-    this.scrollToBottom();
+    //this.scrollToBottom();
   }
 
   scrollToBottom = () => {
@@ -31,6 +31,7 @@ class Chat extends React.Component {
 
 
   render() {
+    this.scrollToBottom();
     let {messages, isLoading, user, renderMessage} = this.props;
     let {message} = this.state;
 
