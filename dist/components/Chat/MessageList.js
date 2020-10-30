@@ -77,12 +77,21 @@ var MessageList = function (_React$Component) {
             var renderTime = void 0;
             if (isUser) {
               renderName = null;
-              renderTime = null;
+              renderTime = React.createElement(
+                'div',
+                { className: 'sender-time' },
+                message.sender.time
+              )
             } else {
               renderName = React.createElement(
                 'div',
                 { className: 'sender-name' },
                 message.sender.name
+              );
+              renderName = React.createElement(
+                'div',
+                { className: 'sender-time' },
+                message.sender.time
               );
             }
             return React.createElement(
@@ -110,11 +119,10 @@ var MessageList = function (_React$Component) {
                   message.text
                 )
               ),
-              renderTime = React.createElement(
-                'div',
-                { className: 'sender-time' },
-                message.sender.time
-              )
+              // tadi dsini
+              {if (isUser) {
+                renderTime
+              }}
             );
           }
         });
